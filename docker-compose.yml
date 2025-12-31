@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app/backend
+    environment:
+      - RUST_LOG=debug
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app/frontend
+    depends_on:
+      - backend
+
+  ai:
+    build:
+      context: ./ai
+      dockerfile: Dockerfile
+    volumes:
+      - ./ai:/app/ai
+    depends_on:
+      - backend
