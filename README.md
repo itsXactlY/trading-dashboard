@@ -1,19 +1,6 @@
-# Trading Dashboard
+# Trading Dashboard 
 
-A futuristic, AI-powered trading analytics dashboard that transforms raw CSV data into an immersive, interactive experience.
-
-## Features
-
-- **Dynamic 3D Data Visualization Engine**: Real-time holographic charts (candlestick, heatmaps, flow diagrams) that respond to user gestures.
-- **AI-Powered Insight Generator**: Auto-generated narrative summaries, pattern detection, and optimization strategy suggestions.
-- **Multi-Dimensional Filtering**: Neural network-driven query system for natural language searches.
-- **Predictive Performance Simulator**: Sandbox mode for parameter tweaking with Monte Carlo simulations.
-- **Social & Collaborative Layer**: Embedded community features to share annotated trades and compete on leaderboards.
-- **Adaptive UI with Biometric Feedback**: Eye-tracking and EEG integration for hands-free navigation.
-- **Blockchain-Verified Audit Trail**: Immutable on-chain records of trade executions.
-- **Hyper-Personalized Alerts**: AI agents monitoring live markets and triggering push notifications.
-- **Cinematic Trade Replays**: "Director’s Cut" mode animating trade lifecycle with adaptive soundtrack.
-- **Quantum-Ready Architecture**: Backend optimized for hybrid cloud/quantum computing.
+A full work in progress futuristic, AI-powered trading analytics dashboard that transforms raw CSV data into an immersive, interactive experience.
 
 ## Tech Stack
 
